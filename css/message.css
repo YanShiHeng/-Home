@@ -1,0 +1,54 @@
+
+/* 右边 */
+.mainright {
+    margin-left: 27px;
+    font-size: 14px;
+}
+
+.mainright p {
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.mainright form {
+    width: 800px;
+    height: 550px;
+    margin-top: 10px;
+}
+
+.mainright form span {
+    color: red;
+}
+
+.mainright form div {
+    margin-bottom: 15px;
+}
+
+.mainright form input {
+    margin-bottom: 26px;
+    border: solid 1px #e7e7e7;
+}
+
+/* .mainright .w input {
+    margin-right: 10px;
+} */
+
+.mainright form textarea {
+    width: 800px;
+    height: 70px;
+}
+
+.mainright form button {
+    width: 800px;
+    height: 45px;
+    background-color: #21bcd8;
+    border: 0;
+    margin-top: 24px;
+    color: #fff;
+}
+
+.area {
+    width: 800px;
+    height: 40px;
+
+}

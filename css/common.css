@@ -1,0 +1,321 @@
+/* 版心 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 左浮动 */
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+.fr {
+    float: right;
+}
+/* 清除浮动 */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+/* 顶部 */
+.header {
+    min-width: 1200px;
+    /* height: 44px; */
+    background-color: #252525;
+    font-size: 12px;
+    line-height: 44px;
+    color: #ffffff;
+}
+
+.header a {
+    color: #fff;
+    height: 44px;
+    margin-left: 10px;
+}
+
+
+/* 导航 */
+.nav {
+    /* min-width: 1200px; */
+    height: 104px;
+}
+
+/* logo部分 */
+.logo {
+    width: 152px;
+    height: 76px;
+    padding-top: 28px;
+}
+
+.logo img {
+    width: 152px;
+    height: 46px;
+}
+
+/* 导航部分 */
+.navul {
+    width: 720px;
+    height: 104px;
+
+}
+
+.navul li {
+    width: 120px;
+    height: 61px;
+    margin-top: 43px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+}
+
+.navul li a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.navul li:hover {
+    background: url(../images/nav_move.jpg) no-repeat;
+    background-position: center -10px;
+}
+
+/* 图片 */
+.dingbutu {
+    /* width: 100%; */
+    min-width: 1200px;
+    height: 308px;
+}
+
+.dingbutu img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 点击路径 */
+.path {
+    /* width: 100%; */
+    min-width: 1200px;
+    height: 52px;
+    border-bottom: 2px solid #f3f3f3;
+    font-size: 14px;
+    line-height: 52px;
+    color: #818388;
+    margin-top: 54px;
+}
+
+/* 标题部分 */
+
+.biaoti {
+    margin-top: 30px;
+    font-size: 28px;
+    height: 90px;
+    background: url(../images/nav_bg02.png) no-repeat;
+    background-position: left 0;
+}
+
+/* 主体部分 */
+/* 左边 */
+
+#kinds {
+    width: 260px;
+    /* overflow: hidden; */
+    margin-bottom: 20px;
+}
+
+#kinds li {
+    float: left;
+    width: 260px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: #f2f2f2;
+}
+
+#kinds li a {
+
+    color: #252525;
+}
+
+/* 图片 */
+.tu {
+    width: 260px;
+    height: 260px;
+}
+
+.tu img {
+    width: 100%;
+    height: 100%;
+}
+/* 底部功能 */
+.bottom {
+    min-width: 1200px;
+    height: 265px;
+    background-color: #141414;
+    margin-top: 60px;
+    padding-top: 75px;
+}
+
+/* 地址 */
+.address {
+    width: 440px;
+    height: 265px;
+}
+
+.address .logo2 {
+    width: 160px;
+    height: 70px;
+}
+
+.address .logo img {
+    width: 100%;
+    height: 40px;
+}
+
+.address .left {
+    width: 30px;
+    height: 110px;
+}
+
+.address .right {
+    width: 400px;
+    height: 110px;
+}
+
+.address .right a {
+    display: block;
+    width: 400px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 21px;
+    color: #646569;
+}
+
+/* 快速链接 */
+.lianjie {
+    width: 370px;
+    height: 265px;
+}
+
+.fast {
+    width: 370px;
+    height: 70px;
+    font-size: 20px;
+    background: url(../images/line_bg.png) no-repeat;
+    background-position: left 0;
+}
+
+.fast a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.lianjie .lj {
+    width: 370px;
+    height: 120px;
+}
+
+.lianjie .lj li {
+    width: 74px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    float: left;
+    margin-right: 90px;
+}
+
+.lj li a {
+    /* text-decoration: none; */
+    color: #818388;
+}
+
+/* 站内搜索 */
+.insou {
+    width: 390px;
+    height: 192px;
+}
+
+.zhannei {
+    width: 390px;
+    height: 70px;
+    font-size: 20px;
+    background: url(../images/line_bg.png) no-repeat;
+    background-position: left 0;
+}
+
+.zhannei a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.insou .sous {
+    width: 350px;
+    height: 50px;
+}
+
+.sous .int {
+    width: 220px;
+    height: 50px;
+    background-color: #333333;
+    font-size: 12px;
+    line-height: 50px;
+    color: #8c8c8c;
+    text-indent: 0.5em;
+    border: 0;
+}
+
+.sous .but {
+    width: 100px;
+    height: 50px;
+    background-color: #3aa27f;
+    color: #fff;
+    border: 0;
+
+    /* margin-right: 0; */
+}
+
+.guanzhu {
+    margin-top: 30px;
+    width: 150px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.guanzhu a {
+    text-decoration: none;
+    color: #818388;
+}
+
+/* 版权 */
+#copyright {
+    min-width: 1200px;
+    height: 76px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.banquan {
+    height: 12px;
+    /* background-color: #111b24; */
+    color: #969aa3;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 auto;
+    margin-top: 33px;
+}

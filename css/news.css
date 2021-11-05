@@ -1,0 +1,104 @@
+/* 主体部分 */
+.mainleft {
+    width: 260px;
+    height: 1005px;
+    margin-right: 27px;
+}
+
+.mainleft ul {
+    width: 260px;
+    height: 300px;
+}
+
+.mainleft ul li {
+    width: 260px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    text-align: center;
+    line-height: 98px;
+    margin-bottom: 2px;
+    float: left;
+}
+
+.mainleft ul li a {
+    color: #000;
+}
+
+.mainleft .hua {
+    width: 262px;
+    height: 265px;
+    margin-top: 20px;
+}
+
+.mainleft .hua img {
+    width: 100%;
+    height: 100%;
+}
+
+.rig {
+    width: 913px;
+    height: 1005px;
+}
+
+.mainright {
+    width: 913px;
+    height: 905px;
+}
+
+.mainright li {
+    width: 913px;
+    height: 100px;
+    padding-top: 20px;
+    border-bottom: 2px solid #eeeeee;
+    float: left;
+}
+
+.mainright .first {
+    width: 913px;
+    height: 120px;
+    padding-top: 28px;
+}
+
+.mainright li h3 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+}
+
+.mainright li span {
+    display: block;
+    color: #a5a5b1;
+    margin: 10px 0;
+}
+
+.mainright li p {
+    color: #818388;
+    font-size: 14px;
+
+}
+
+.rig .number {
+    width: 913px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.rig .number span {
+    margin-right: 10px;
+}
+
+.rig .number button {
+
+    height: 18px;
+    border: 2px solid #e5e5e5;
+    color: #606369;
+
+}
+
+.next {
+    margin-left: 6px;
+}

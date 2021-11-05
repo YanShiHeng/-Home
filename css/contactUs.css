@@ -1,0 +1,39 @@
+.tu {
+    height: 302px;
+    margin-top: 32px;
+}
+
+/* 右边 */
+.mainright {
+    margin-left: 25px;
+}
+
+.mainright img {
+    width: 914px;
+    height: 370px;
+}
+
+/* 联系方式 */
+.mainright .way {
+    width: 887px;
+    height: 174px;
+    border: 2px solid #cdcdcd;
+    margin-top: 35px;
+    padding-left: 23px;
+    padding-top: 36px;
+
+}
+
+.mainright .way p {
+    margin-bottom: 10px;
+
+    color: #818388;
+    font-size: 14px;
+    line-height: 26px;
+}
+.mainright .way p span{
+    color: #a8a8a8;
+}
+.mainright .way p a {
+    color: #818388
+}

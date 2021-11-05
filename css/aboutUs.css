@@ -1,0 +1,26 @@
+
+
+/* 右边 */
+.mainright {
+    width: 904px;
+    height: 550px;
+    margin-left: 24px;
+
+}
+
+.mainright h3 {
+    font-size: 17px;
+    /* line-height: 50px; */
+    margin-bottom: 16px;
+}
+
+.mainright p {
+    line-height: 32px;
+    font-size: 14px;
+    color: #818388;
+    margin-bottom: 50px;
+}
+
+.mainright .p0 {
+    margin-bottom: 0;
+}
